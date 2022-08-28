@@ -16,6 +16,7 @@ func main() {
 	fmt.Println("Module and clip are set to", module, "and", clip, ".")
 	fmt.Println("Name is of type ", reflect.TypeOf(name))
 	fmt.Println("Module is of type ", reflect.TypeOf(module))
+	fmt.Println("Memory address of varable cousre", &course)
 	iMoudle, err := strconv.Atoi(module)
 	if err == nil {
 		total := iMoudle + clip
